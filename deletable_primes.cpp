@@ -18,7 +18,8 @@
    if (i == 0)
    {
      return n / 10;
-
+   }
+   
    unsigned long left = 0;
    unsigned long right = 0;
    unsigned long removedNumber = 0;

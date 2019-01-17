@@ -14,9 +14,10 @@
 
  unsigned long remove_digit(int index, unsigned long n)
  {
-   if (is_prime(n))
+   unsigned long digit = n % 10;
+   if (!is_prime(digit))
    {
-     
+     return digit / 10;
    }
    return 0;
  }

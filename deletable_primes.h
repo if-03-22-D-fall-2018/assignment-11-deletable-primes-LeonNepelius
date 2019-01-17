@@ -19,4 +19,6 @@ int get_ways(unsigned long p);
 
 bool is_prime(unsigned long n);
 
+int count_digits(unsigned long num);
+
 #endif

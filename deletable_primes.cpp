@@ -15,17 +15,9 @@
 
  unsigned long remove_digit(int i, unsigned long n)
  {
-<<<<<<< HEAD
    if (i == 0)
    {
      return n / 10;
-=======
-   unsigned long digit = n % 10;
-   if (!is_prime(digit))
-   {
-     return digit / 10;
->>>>>>> d560f37dd60ef4508111d5b621e8e97abfea500e
-   }
 
    unsigned long left = 0;
    unsigned long right = 0;
